@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', 'Roboto', 'sans serif';
+    color: rgb(0, 0, 0);
+}
+
+section{
+    padding-top: 5rem;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 175px;
+    height: 680px;
+    /* background-color: #000; */
+}
+
+.content-text{
+    margin-top: 190px;
+}
+
+.content-text h1{
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.content-text p{
+    width: 32rem;
+    color: #232931;
+    font-size: 17px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: #000000;
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.hero-img{
+    width: 29rem;
+    /* background-color: #000; */
+    margin-top: 80px;
+}
+
+.hero-img img{
+    width: 100%;
+}
+.jumbotron{
+    padding-top: 6rem;
+    background-color: #cfeeff;
+}
+
+#Pengertian{
+    background-color:#cfeeff ;
+}
+
+#Pengertian .card{
+    background-color: #cfeeff;
+}
+
+#about{
+    background-color:#cfeeff ;
+}
+
+
+#Prestasi{
+    background-color: #2e679e;
+}
+
+.footer-main {
+    background-color: #2e679e;;
+    padding: 24px 60px;
+    color: white;
+    border-top: double #2e679e 3px;
+    text-decoration: none;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+    margin-top: 20px;
+    margin-left: -55px;
+  }
+  
+  .footer-bottom{
+      clear: both;
+    background: #2e679e;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: rgb(204, 204, 204);
+}
+.footer-bottom p{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-3  a{    
+    color: white;
+   
+}
+.footer-3 span:hover{
+    color: orange;
+    
+}
+.footer-1 p a{
+    color: white ;
+}
+.footer-1 p a:hover{
+    color: orange ;
+}
+
+  .responsive {
+    padding: 0 8px;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 6px 6px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42858;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
